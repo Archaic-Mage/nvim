@@ -1,5 +1,4 @@
 vim.g.mapleader = " "
-
 -- file structure
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
@@ -20,3 +19,10 @@ vim.keymap.set("n", "J", "mzJ`z")
 
 --replace paste 
 vim.keymap.set("x", "<leader>p", "\"_dP")
+
+--select all
+vim.keymap.set("n", "<C-a>", "<esc>ggVG<CR>")
+
+--cp setup 
+vim.keymap.set("n", "<leader>nn", ":!rm -rf test* && cp /home/mage/Documents/CP/codeforces/template/template.cpp practise.cpp <CR>")
+vim.keymap.set("n", "CC", ":w <bar> !g++ -Wall -Werror -D DEBUG %<.cpp -o run<CR>")

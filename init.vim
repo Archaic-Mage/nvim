@@ -28,14 +28,10 @@ set background=dark " or light if you want light mode
 colorscheme gruvbox
 
 "keybindings for { completion, ctrl-a to select all
-map <C-a> <esc>ggVG<CR>
 set belloff=all
 
 "Append template to new C++ files
 autocmd BufNewFile *.cpp 0r /home/mage/Documents/CP/codeforces/template/template.cpp
-
-"Compile and run
-nnoremap CC :w <bar> !g++ %<.cpp -D DEBUG -o run <CR>
 
 "plugins
 lua require('plugins')
