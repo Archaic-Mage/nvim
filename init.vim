@@ -24,8 +24,9 @@ filetype off
 setlocal indentkeys-=:
 setlocal scrolloff=10
 
-set background=dark " or light if you want light mode
-colorscheme gruvbox
+"set background=dark " or light if you want light mode
+"colorscheme gruvbox
+colorscheme tokyonight-moon
 
 "keybindings for { completion, ctrl-a to select all
 set belloff=all

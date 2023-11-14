@@ -12,6 +12,12 @@ use (
 
 -- colorscheme
 use { "ellisonleao/gruvbox.nvim" }
+use {
+  "folke/tokyonight.nvim",
+  lazy = false,
+  priority = 1000,
+  opts = {},
+}
 
 use {
 	'xeluxee/competitest.nvim',
