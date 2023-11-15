@@ -14,7 +14,8 @@ cmp.setup({
         ['<c-space>'] = cmp.mapping.complete(),
         ['<C-u>'] = cmp.mapping.scroll_docs(-4),
         ['<C-d>'] = cmp.mapping.scroll_docs(4),
-        ['<Tab>'] = cmp.mapping.select_next_item(cselect),
+        ['<C-j>'] = cmp.mapping.select_next_item(cselect),
+        ['<C-k>'] = cmp.mapping.select_prev_item(cselect),
         ['<CR>'] = cmp.mapping.confirm({select = true})
     })
 })

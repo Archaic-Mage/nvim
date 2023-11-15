@@ -56,5 +56,10 @@ use {
     {'L3MON4D3/LuaSnip'},
   }
 }
+
+-- copilot
+use {
+    'github/copilot.vim'
+}
 end)
 
